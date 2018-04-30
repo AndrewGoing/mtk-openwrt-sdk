@@ -12,7 +12,7 @@ PKG_VERSION:=2.24.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=@KERNEL/linux/utils/$(PKG_NAME)/v2.24
+PKG_SOURCE_URL:=https://mirrors.edge.kernel.org/pub/linux/utils/$(PKG_NAME)/v2.24
 PKG_MD5SUM:=88d46ae23ca599ac5af9cf96b531590f
 
 PKG_LICENSE:=GPLv2 LGPLv2.1 BSD-3c
