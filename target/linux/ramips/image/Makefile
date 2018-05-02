@@ -729,9 +729,12 @@ endif
 
 Image/Build/Profile/MT7621=$(call BuildFirmware/Default8M/$(1),$(1),mt7621,MT7621)
 
+Image/Build/Profile/K2P=$(call BuildFirmware/Default16M/$(1),$(1),k2p,K2P)
+
 ifeq ($(SUBTARGET),mt7621)
 define Image/Build/Profile/Default
 	$(call Image/Build/Profile/MT7621,$(1))
+	$(call Image/Build/Profile/K2P,$(1))
 endef
 endif
 

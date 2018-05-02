@@ -3,8 +3,8 @@
 # Copyright (C) 2010-2013 OpenWrt.org
 #
 
-RAMIPS_BOARD_NAME=
-RAMIPS_MODEL=
+RAMIPS_BOARD_NAME=k2p
+RAMIPS_MODEL=a2
 
 ramips_board_detect() {
 	local machine

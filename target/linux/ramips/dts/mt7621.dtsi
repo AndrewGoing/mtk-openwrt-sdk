@@ -80,7 +80,7 @@
 			no-loopback-test;
 		};
 
-		spi@b00 {
+		spi0: spi@b00 {
 			status = "okay";
 
 			compatible = "ralink,mt7621-spi";
@@ -194,7 +194,7 @@
 		};
 	};
 
-	ethernet@1e100000 {
+	ethernet: ethernet@1e100000 {
 		compatible = "ralink,mt7621-eth";
 		reg = <0x1e100000 10000>;
 
